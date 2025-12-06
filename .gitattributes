@@ -1,0 +1,23 @@
+# --- Ignorar carpetas de plataforma completas ---
+android/** linguist-vendored
+ios/** linguist-vendored
+web/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+
+# --- Ignorar archivos específicos de C++ ---
+*.cpp linguist-vendored
+*.cc linguist-vendored
+*.cxx linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+
+# --- Ignorar configuración de compilación (CMake) ---
+CMakeLists.txt linguist-vendored
+Makefile linguist-vendored
+
+# --- Ignorar otros generados ---
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
